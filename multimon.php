@@ -38,7 +38,7 @@
 # where "active" is defined as follows.
 #
 # "Active": Display is connected AND xrandr can get its current resolution (and
-# not just a list of possible resolutions), which implies the display showeds at
+# not just a list of possible resolutions), which implies the display showed at
 # least a portion of the Linux desktop at the moment xrandr queried the display.
 
 $xrandr_cmd = "xrandr"; # Use full path if xrandr isn't in your $PATH
