@@ -23,7 +23,7 @@
 # or right-to-left, depending on the command line arg.
 #
 # USAGE
-#   2m [arg]
+#   multimon.php [arg]
 #
 # If [arg] is missing, or is the zero character ("0"), monitors are laid out
 # horizonatally right-to-left, with the main display furthest to the right, and
