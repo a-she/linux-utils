@@ -118,14 +118,14 @@ if ($dispIdx > 1) {
     else      { $hpos -= $dispW[$ii]; }
   }
   echo "cmd=|$cmd|\n";
-# system($cmd);
+  system($cmd);
 }
  else {
   echo "No external displays found, so this script isn't changing anything.
-Make sure both ends of all power and signal cables are seated firmly,
+Make sure both ends of each power and signal cables are seated firmly,
 and all displays are powered on, then re-run this script.  If you used xrandr
 to remove a display, you may need to unplug its signal cable and plug it back
-in to let xrandr detect the display again.\n";
+in to cause xrandr to detect the display again.\n";
   }
 
 ?>
